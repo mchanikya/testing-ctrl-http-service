@@ -1,2 +1,2 @@
-# testing-ctrl-http-service
-sample example to demonstrate $http mocking
+# controllers-testing-example
+Testing example for angular controller.

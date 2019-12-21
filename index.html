@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing Controllers</title>
+	<script type="text/javascript" src='angular.min.js'></script>
+	<script type="text/javascript" src='app.js'></script>
+</head>
+<body ng-app='ControllerTestingDemoApp'>
+	<div ng-controller='testController as test'>
+		<button name="button" ng-click="test.getCategories()">Get Menu Categories</button>
+		<p ng-repeat='cat in test.list'>{{cat.name}}</p>
+	</div>
+</body>
+</html>
